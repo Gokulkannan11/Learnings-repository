@@ -14,7 +14,6 @@ let name = "John";
 const PI = 3.14;
 
 
-## Operators
 
 Operators in JavaScript are symbols that perform operations on variables and values.
 
