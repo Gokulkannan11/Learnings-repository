@@ -12,8 +12,9 @@ Example:
 var age = 25;
 let name = "John";
 const PI = 3.14;
+````
 
-
+## operators
 
 Operators in JavaScript are symbols that perform operations on variables and values.
 
@@ -29,6 +30,7 @@ Example:
 
 ````javascript
 let result = 10 + 5; // result equals 15
+````
 
 
 ### Comparison Operators
@@ -48,6 +50,7 @@ Example:
 let x = 10;
 let y = 5;
 console.log(x > y); // Output: true
+````
 
 
 ### Logical Operators
@@ -62,3 +65,4 @@ Example:
 let a = true;
 let b = false;
 console.log(a && b); // Output: false
+````
