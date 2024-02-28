@@ -12,3 +12,54 @@ Example:
 var age = 25;
 let name = "John";
 const PI = 3.14;
+
+
+## Operators
+
+Operators in JavaScript are symbols that perform operations on variables and values.
+
+### Arithmetic Operators
+
+- Addition (`+`)
+- Subtraction (`-`)
+- Multiplication (`*`)
+- Division (`/`)
+- Modulus (`%`)
+
+Example:
+
+````javascript
+let result = 10 + 5; // result equals 15
+
+
+### Comparison Operators
+
+- Equal to (`==`)
+- Not equal to (`!=`)
+- Strict equal to (`===`)
+- Strict not equal to (`!==`)
+- Greater than (`>`)
+- Less than (`<`)
+- Greater than or equal to (`>=`)
+- Less than or equal to (`<=`)
+
+Example:
+
+````javascript
+let x = 10;
+let y = 5;
+console.log(x > y); // Output: true
+
+
+### Logical Operators
+
+- Logical AND (`&&`)
+- Logical OR (`||`)
+- Logical NOT (`!`)
+
+Example:
+
+````javascript
+let a = true;
+let b = false;
+console.log(a && b); // Output: false
