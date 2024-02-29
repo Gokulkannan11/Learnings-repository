@@ -52,3 +52,28 @@ while (i < 5) {
 // 3
 // 4
 ```
+## `do-while` Loop
+
+The `do-while` loop is similar to the `while` loop, but it checks the condition after executing the block, ensuring that the block of code is executed at least once.
+
+```javascript
+do {
+  // code to be executed
+} while (condition);
+```
+
+Example:
+
+```javascript
+let i = 0;
+do {
+  console.log(i);
+  i++;
+} while (i < 5);
+// Output:
+// 0
+// 1
+// 2
+// 3
+// 4
+```
