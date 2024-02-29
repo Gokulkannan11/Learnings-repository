@@ -77,3 +77,33 @@ do {
 // 3
 // 4
 ```
+## Loop Control Statements
+
+JavaScript provides loop control statements to manipulate the behavior of loops.
+
+### `break`
+
+Terminates the loop immediately.
+
+### `continue`
+
+Skips the current iteration of the loop and continues with the next iteration.
+
+Example:
+
+```javascript
+for (let i = 0; i < 5; i++) {
+  if (i === 2) {
+    continue;
+  }
+  console.log(i);
+}
+// Output:
+// 0
+// 1
+// 3
+// 4
+```
+
+## Conclusion
+Loops are essential for iterating over arrays, performing repetitive tasks, and implementing control flow in JavaScript programs. Understanding the different types of loops and their usage is crucial for efficient programming.
