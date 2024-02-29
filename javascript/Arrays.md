@@ -47,3 +47,42 @@ let colors = ['red', 'green', 'blue'];
 colors[1] = 'yellow';
 console.log(colors); // Output: ['red', 'yellow', 'blue']
 ```
+## Array Methods
+
+JavaScript arrays come with a variety of built-in methods to manipulate their contents.
+
+### `push()`
+
+Adds one or more elements to the end of an array and returns the new length of the array.
+```javascript
+let colors = ['red', 'green'];
+colors.push('blue');
+console.log(colors); // Output: ['red', 'green', 'blue']
+```
+
+### `pop()`
+Removes the last element from an array and returns that element.
+```javascript
+let colors = ['red', 'green', 'blue'];
+let lastColor = colors.pop();
+console.log(lastColor); // Output: blue
+console.log(colors); // Output: ['red', 'green']
+```
+
+### `forEach()`
+Executes a provided function once for each array element.
+```javascript
+let colors = ['red', 'green', 'blue'];
+colors.forEach(function(color) {
+  console.log(color);
+});
+// Output:
+// red
+// green
+// blue
+```
+
+## Conclusion
+Arrays are fundamental data structures in JavaScript that allow for the storage and manipulation of collections of elements. Understanding how to work with arrays is essential for effective JavaScript programming.
+
+This documentation provides an overview of basic array operations and methods. For more detailed information and advanced usage, refer to the official [MDN web docs on arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).
