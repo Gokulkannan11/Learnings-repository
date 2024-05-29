@@ -6,7 +6,7 @@
    code block runs if condition is true
 ```java
 if (condition) {
-    
+     
 } else {
     // alternative path
 }
