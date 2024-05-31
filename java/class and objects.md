@@ -23,3 +23,20 @@
       }
     }
     ```
+
+    **What is constructors ?**
+
+- The name of the constructor method must be the same as the class itself.
+- to initialize fields when an instance of the class is created.
+
+    ```java
+    public class Car { 
+
+    // Constructor
+    public Car() { 
+
+      // instructions for creating a Car instance 
+    }   
+    } 
+
+```
