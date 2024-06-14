@@ -19,7 +19,7 @@ public class sum {
         return sum; // once return is executed the function is over
     }
 
-    static void sum () {
+    static void sum() {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter number 1 : ");
         int num1 = in.nextInt();
