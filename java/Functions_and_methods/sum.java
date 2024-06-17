@@ -31,7 +31,7 @@ public class sum {
     }
     
 /*
-     acces modifer  retrurn_type name () {
+     acces modifer  retrurn_type name (arguments) {
      //body
      return statement
 }
