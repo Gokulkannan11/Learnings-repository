@@ -13,7 +13,7 @@ public class swap {
 
        System.out.println(a + " " + b);
 
-        
+         
      }
 
      static void swap(int a , int b){
